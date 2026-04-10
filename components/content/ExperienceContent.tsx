@@ -6,7 +6,7 @@ import { Briefcase, Calendar, MapPin, ExternalLink } from "lucide-react";
 const experiences = [
   {
     company: "Block Stack Pvt Ltd",
-    role: "Software Development Engineer",
+    role: "Software Engineer - 2",
     period: "Dec 2025 – Present",
     status: "current",
     highlights: [
@@ -63,8 +63,8 @@ export default function ExperienceContent() {
           {/* Timeline Dot */}
           <div
             className={`absolute left-2.5 md:left-3.5 top-1 w-4 h-4 rounded-full border-2 z-10 transition-all duration-300 ${exp.status === "current"
-                ? "bg-accent border-accent shadow-lg shadow-accent/40 animate-pulse"
-                : "bg-zinc-800 border-zinc-600 group-hover:bg-accent group-hover:border-accent group-hover:shadow-lg group-hover:shadow-accent/30"
+              ? "bg-accent border-accent shadow-lg shadow-accent/40 animate-pulse"
+              : "bg-zinc-800 border-zinc-600 group-hover:bg-accent group-hover:border-accent group-hover:shadow-lg group-hover:shadow-accent/30"
               }`}
           />
 
