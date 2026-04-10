@@ -1,6 +1,7 @@
 "use client";
 
 import { User, Mail, MapPin, Briefcase } from "lucide-react";
+import { CONTACT_EMAIL } from "@/lib/contact";
 
 export default function AboutContent() {
   return (
@@ -22,7 +23,7 @@ export default function AboutContent() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {[
-          { icon: Mail, label: "Email", value: "tejaswini.webdev11@gmail.com" },
+          { icon: Mail, label: "Email", value: CONTACT_EMAIL },
           { icon: MapPin, label: "Location", value: "Bangalore, India" },
           { icon: Briefcase, label: "Experience", value: "3.7+ Years" },
           { icon: User, label: "Availability", value: "Full-time / Permanent" }

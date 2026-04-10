@@ -43,9 +43,13 @@ export default function Hero() {
         <a href="#projects" className="px-10 py-4 bg-accent text-white font-black uppercase tracking-widest rounded-2xl hover:scale-105 active:scale-95 transition-all glow-accent">
           View Projects
         </a>
-        <button className="px-10 py-4 border border-white/10 text-white font-black uppercase tracking-widest rounded-2xl hover:bg-white/5 transition-colors">
+        <a
+          href="/Tejaswini_Kanike.pdf"
+          download="Tejaswini_Kanike.pdf"
+          className="px-10 py-4 border border-white/10 text-white font-black uppercase tracking-widest rounded-2xl hover:bg-white/5 transition-colors inline-block text-center"
+        >
           Download CV
-        </button>
+        </a>
       </motion.div>
 
       <motion.div

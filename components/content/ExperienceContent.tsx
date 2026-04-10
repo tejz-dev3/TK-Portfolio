@@ -19,7 +19,7 @@ const experiences = [
     ],
   },
   {
-    company: "Tradelab Technologies",
+    company: "Tradelabz Fintech LLP",
     role: "Frontend Developer",
     period: "Jun 2024 – Jun 2025",
     status: "past",

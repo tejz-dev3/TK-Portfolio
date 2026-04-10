@@ -1,4 +1,4 @@
-export const CONTACT_EMAIL = "tejaswini.webdev11@gmail.com";
+export const CONTACT_EMAIL = "tejaswini.webdev@gmail.com";
 export const CONTACT_PHONE_DISPLAY = "+91 8106906911";
 export const CONTACT_PHONE_TEL = "tel:+918106906911";
 export const LINKEDIN_PROFILE_URL = "https://www.linkedin.com/in/tejaswini-k-a4561122a/";
