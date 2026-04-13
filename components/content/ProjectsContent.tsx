@@ -4,21 +4,16 @@ import { ExternalLink, FolderOpen } from "lucide-react";
 
 const projects = [
   {
-    title: "Eco-Track SaaS",
-    description: "A high-performance sustainability tracking platform built for enterprise clients.",
-    tags: ["Next.js", "PostgreSQL", "Cloudflare"],
-    link: "https://example.com"
-  },
-  {
-    title: "Neuro Designer",
-    description: "AI-driven design tool that generates high-fidelity UI components on-the-fly.",
-    tags: ["React", "Python", "OpenAI"],
-    link: "https://example.com"
+    title: "VibeLearn",
+    description: "A swipe-first micro-learning app that generates AI-powered study cards with quick quizzes and streak-based retention.",
+    tags: ["Next.js", "TypeScript", "Framer Motion", "Tailwind CSS", "AI"],
+    link: "https://vibe-learn-with-ai.vercel.app/",
+    github: "https://github.com/tejz-dev3/vibe-learn-with-AI"
   },
   {
     title: "Aura E-commerce",
     description: "A premium e-commerce shopping experience with high-performance real-time search and smooth UI/UX.",
-    tags: ["React", "Next.js", "TailwindCSS"],
+    tags: ["Javascript, React", "Next.js", "TailwindCSS"],
     link: "https://aura-ecommerce-five.vercel.app/",
     github: "https://github.com/tejz-dev3/aura-ecommerce"
   }
